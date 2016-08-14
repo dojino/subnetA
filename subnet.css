@@ -57,7 +57,7 @@ img{
 
 #stage-caption h1 {
     color: white;
-    font-weight: lighter;
+    font-weight: light;
 }
 
 #footer-main {
@@ -78,5 +78,4 @@ img{
 #jumbo1 h1 {
     color: #777;
     font-size: 2.2rem
-
 }
