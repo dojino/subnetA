@@ -126,17 +126,43 @@ img{
 }
 
 .img-responsive {
-        margin: 0 auto;
-    }
+    margin: 0 auto;
+}
 .centerBlock {
-  display: table;
-  margin: 0 auto;
+    display: table;
+    margin: 0 auto;
 }
 
 .container-fluid{
     background-color: #f8f8f8;
+    background: #f8f8f8;
+
+
 }
 
 .card{
-    border: 0;
+    background: #fff;
+    border-radius: 2px;
+    display: inline-block;
+    margin: 1rem;
+    position: relative;
+
+}
+
+.card-1 {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border: none;
+
+}
+
+.card-2 {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border: none;
+}
+
+.card-3 {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border: none;
+
+
 }
