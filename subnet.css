@@ -37,14 +37,17 @@ img{
     margin: 1rem 0 0;
 }
 
+
+
 #stage {
-    background: url(img/cover.jpg) center center no-repeat;
+    background: url(img/cover.jpg) center center no-repeat ;
     background-size: cover;
     color: white;
     height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
+
 }
 
 #stage-caption {
@@ -72,10 +75,68 @@ img{
     font-weight: 200;
     font-size: 1.4rem;
     margin: 0 auto;
-    padding: 3rem 0;
+    padding: 1rem 0;
+    background-color: white;
 }
 
 #jumbo1 h1 {
-    color: #777;
+    color: black ;
     font-size: 2.2rem
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+
+}
+
+.container-section-b {
+    padding: 20px;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading-spacer-a {
+    border: 0.5px solid blue;
+
+}
+
+.section-heading-spacer-b {
+    border: 1px solid green;
+
+}
+.section-heading-spacer-c {
+    border: 1px solid red;
+
+}
+
+.section-heading-spacer-d {
+    border: 1px solid yellow;
+
+}
+
+.section-heading-spacer-e {
+    border: 1px solid violet;
+
+}
+
+.container-section-a {
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.img-responsive {
+        margin: 0 auto;
+    }
+.centerBlock {
+  display: table;
+  margin: 0 auto;
+}
+
+.container-fluid{
+    background-color: #f8f8f8;
+}
+
+.card{
+    border: 0;
 }
