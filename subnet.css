@@ -70,6 +70,7 @@ img{
     padding: 2.5rem 0;
 }
 
+/*
 .jumbotron {
     text-align: center;
     font-weight: 200;
@@ -77,23 +78,25 @@ img{
     margin: 0 auto;
     padding: 1rem 0;
     background-color: white;
+    white-space: pre-line
 }
 
 #jumbo1 h1 {
-    color: black ;
-    font-size: 2.2rem
-}
+    background-color: #f8f8f8
 
+*/
+
+.jumbo {
+    background-color:
+}
 .content-section-a {
     padding: 50px 0;
     background-color: #f8f8f8;
 
 }
 
-.container-section-b {
-    padding: 20px;
-    border-top: 1px solid #e7e7e7;
-    border-bottom: 1px solid #e7e7e7;
+
+
 }
 
 .section-heading-spacer-a {
@@ -121,8 +124,27 @@ img{
 }
 
 .container-section-a {
+    white-space: pre-line;
     padding: 20px;
     background-color: #f8f8f8;
+}
+
+.container-section-b {
+    padding: 20px;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    color: white-smoke;
+    white-space: pre-line;
+}
+
+.container-section-c {
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.cloud {
+    max-width: 90rem;
+
 }
 
 .img-responsive {
@@ -134,18 +156,19 @@ img{
 }
 
 .container-fluid{
+
     background-color: #f8f8f8;
     background: #f8f8f8;
-
 
 }
 
 .card{
-    background: #fff;
+    background: #fff
     border-radius: 2px;
     display: inline-block;
     margin: 1rem;
     position: relative;
+
 
 }
 
@@ -163,6 +186,56 @@ img{
 .card-3 {
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     border: none;
+}
 
+.google-yellow {
+    background-color: #ffbc00;
+}
+.section-dark {
+    color: #fff;
+}
+.section {
+    padding: 42px 0 44px;
+    position: relative;
+}
 
+.text-align-center {
+    text-align: center;
+}
+blockquote {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: -.1px;
+    line-height: 28px;
+    margin: 0;
+}
+
+.font-medium {
+    line-height: 24px;
+}
+
+.font-medium {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+}
+blockquote+cite {
+    display: block;
+    margin: 30px 0 0;
+}
+cite {
+    font-style: normal;
+}
+
+.section {
+    padding: 88px 0 94px;
+}
+
+.google-red {
+    background-color: #ff5252;
+}
+
+.whitespace{
+    white-space: pre;
 }
