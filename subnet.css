@@ -44,7 +44,7 @@ img{
 
 
 #stage {
-    background: url(img/cover.jpg) center center no-repeat ;
+    background: url(img/background-1503863_1280.png) center center no-repeat ;
     background-size: cover;
     color: white;
     height: 100%;
@@ -94,6 +94,32 @@ img{
     color: #ff5252;
     font-family: 'Roboto',arial,sans-serif;
 }
+
+.server-color {
+    color: #319908;
+}
+
+.consultancy-color {
+    color: #E82C0C;
+}
+
+
+.sales-color {
+    color: #544d00;
+}
+.web-color{
+    color:;
+}
+.cyber-color {
+    color:coral;
+}
+
+.cloud-color {
+    color: #008AA8;
+}
+
+
+
 .content-section-a {
     padding: 50px 0;
     background-color: #f8f8f8;
@@ -105,8 +131,9 @@ img{
 
 }
 
+
 .section-heading-spacer-b {
-    border: 1px solid #00E4E8;
+    border: 1px solid #008aa8;
 
 }
 .section-heading-spacer-c {
@@ -115,7 +142,7 @@ img{
 }
 
 .section-heading-spacer-d {
-    border: 1px solid yellow;
+    border: 1px solid black;
 
 }
 
@@ -124,6 +151,15 @@ img{
 
 }
 
+.section-heading-spacer-f {
+    border: 1px solid #544d00;
+
+}
+
+.section-heading-spacer-g {
+    border: 1px solid coral;
+
+}
 .container-section-a {
     padding: 20px;
     background-color: #f8f8f8;
@@ -172,18 +208,18 @@ img{
 
 }
 
-.card-1:hover{
+.card-1{
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     border: 0;
 
 }
 
-.card-2:hover {
+.card-2 {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     border: none;
 }
 
-.card-3:hover {
+.card-3 {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     border: none;
 }
@@ -195,8 +231,9 @@ img{
     color: #fff;
 }
 .section {
-    padding: 42px 0 44px;
+    padding: 88px 0 94px;
     position: relative;
+    background-color: #008aa8;
 }
 
 .text-align-center {
@@ -236,12 +273,12 @@ cite {
     background-color: #ff5252;
 }
 
-.google-red {
+.google-blue {
     background-color: #448aff;
 }
 
 .whitespace{
-    white-space: pre-wrap;
+    white-space: pre-line;
     background-color: #fff;
 }
 
