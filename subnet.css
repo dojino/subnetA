@@ -44,7 +44,7 @@ img{
 
 
 #stage {
-    background: url(img/background-1503863_1280.png) center center no-repeat ;
+    background: url(img/starry-sky-1654074_1920.jpg) center center no-repeat ;
     background-size: cover;
     color: white;
     height: 100%;
@@ -76,17 +76,17 @@ img{
 
 /*
 .jumbotron {
-    text-align: center;
-    font-weight: 200;
-    font-size: 1.4rem;
-    margin: 0 auto;
-    padding: 1rem 0;
-    background-color: white;
-    white-space: pre-line
+text-align: center;
+font-weight: 200;
+font-size: 1.4rem;
+margin: 0 auto;
+padding: 1rem 0;
+background-color: white;
+white-space: pre-line
 }
 
 #jumbo1 h1 {
-    background-color: #f8f8f8
+background-color: #f8f8f8
 
 */
 
@@ -193,14 +193,13 @@ img{
 }
 
 .container-fluid{
-    background-color: #f8f8f8;
-    background: #f8f8f8;
+    background-color: ##ffbc00;
 
 }
 
 .card{
     background: #fff
-    border-radius: 2px;
+        border-radius: 2px;
     display: inline-block;
     margin: 1rem;
     position: relative;
@@ -230,8 +229,8 @@ img{
 .section-dark {
     color: #fff;
 }
-.section {
-    padding: 88px 0 94px;
+.section-blue {
+    padding: 190px 0 190px;
     position: relative;
     background-color: #008aa8;
 }
@@ -247,6 +246,9 @@ blockquote {
     line-height: 28px;
     margin: 0;
 }
+
+
+
 
 .font-medium {
     line-height: 24px;
@@ -269,6 +271,9 @@ cite {
     padding: 88px 0 94px;
 }
 
+.card-bck-color{
+    background-color: #ffbc00;
+}
 .google-red {
     background-color: #ff5252;
 }
@@ -291,10 +296,6 @@ cite {
 .light-gray {
     background-color: #f6f6f6;
 }
-.section2 {
-    padding: 42px 0 44px;
-    position: relative;
-}
 
 .site-width {
     padding: 0 15px;
@@ -311,4 +312,64 @@ cite {
 .images {
     margin-bottom: 35px;
     max-width: 100%;
+}
+
+
+
+/*  new cards */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+* {
+    box-sizing: border-box; }
+
+
+a {
+    text-decoration: none; }
+
+h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300; }
+
+
+
+
+/*# sourceMappingURL=subnet.css.map */
+
+
+/* new sections */
+
+
+.client {
+    background-color:#fff;
+    text-align:center;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing:1px;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    transition: all 0.1s;
+    border-right:px solid #f0f0f0;
+    border-bottom:px solid #f0f0f0;
+    cursor:pointer;
+}
+
+
+.client h3 {
+    font-weight:100;
+    margin-top:0px;
+}
+
+
+.client:hover {
+    -ms-transform: scale(1.1,1.1); /* IE 9 */
+    -webkit-transform: scale(1.1,1.1); /* Safari */
+    transform: scale(1.1,1.1);
+    -webkit-box-shadow: 10px 10px 91px 0px rgba(193,79,82,1);
+    -moz-box-shadow: 10px 10px 91px 0px rgba(193,79,82,1);
+    box-shadow: 10px 10px 91px 0px rgba(193,79,82,1);
+    z-index:9999;
+    border-right:1px solid transparent;
+    border-bottom:1px solid transparent;
+    cursor:pointer;
+    background-color:#fff;
 }
